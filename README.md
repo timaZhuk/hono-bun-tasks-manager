@@ -2,21 +2,29 @@
 Hono &amp; Bun Task API This project is a RESTful API for user and task management, built using the Hono framework and the Bun runtime. It is designed to be a lightweight, fast, and modern backend solution with built-in features for validation and authentication. Protected routes.
 
 🚀 Features
-## Hono Framework: A fast, lightweight, and modern web framework for the Bun runtime.
+### Hono Framework: 
+* A fast, lightweight, and modern web framework for the Bun runtime.
 
-## Bun Runtime: A blazingly fast all-in-one JavaScript runtime.
+### Bun Runtime: 
+* A blazingly fast all-in-one JavaScript runtime.
 
-## Database: Uses SQLite for data persistence.
+### Database: 
+* Uses SQLite for data persistence.
 
-## Authentication: Secure user authentication using JSON Web Tokens (JWT).
+### Authentication: 
+* Secure user authentication using JSON Web Tokens (JWT).
 
-## Middleware: Utilizes hono/cors for Cross-Origin Resource Sharing and hono/logger for request logging.
+### Middleware: 
+* Utilizes hono/cors for Cross-Origin Resource Sharing and hono/logger for request logging.
 
-## Input Validation: Enforces request body schemas using Zod and the @hono/zod-validator middleware.
+### Input Validation: 
+* Enforces request body schemas using Zod and the @hono/zod-validator middleware.
 
-## Task Management: Provides full CRUD (Create, Read, Update, Delete) functionality for tasks.
+### Task Management: 
+* Provides full CRUD (Create, Read, Update, Delete) functionality for tasks.
 
-## User Authentication: Includes endpoints for user registration and login.
+### User Authentication: 
+* Includes endpoints for user registration and login.
 
 📦 Prerequisites
 Before running this project, ensure you have the Bun runtime installed on your system.
